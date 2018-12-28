@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/y5">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/law1"
+            tools:srcCompat="@drawable/law1" />
+
+        <TextView
+            android:id="@+id/popwindow4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="225dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:text="-ฉ้อโกง ตามประมวลกฎหมายอาญา มาตรา 341 ทุจริตหลอกลวงผู้อื่นด้วยการแสดงข้อความอันเป็นเท็จ หรือปกปิดข้อความจริง ซึ่งควรบอกให้แจ้งให้ทราบ มีโทษจำคุกไม่เกินสามปี หรือปรับไม่เกินหกพันบาท หรือทั้งจำทั้งปรับ (มีอายุความ 3 เดือน นับตั้งแต่วันที่รู้เรื่องความผิดและรู้ตัวผู้กระทำผิด ดังนั้นหากรู้ตัวว่าถูกโกงให้รีบแจ้งความภายใน 3 เดือน)"
+
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/popwindow4.1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/popwindow4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+
+            android:text="- พ.ร.บ.ว่าด้วยการกระทำความผิดเกี่ยวกับคอมพิวเตอร์ พ.ศ. 2550 มาตรา 14 นำเข้าซึ่งข้อมูลอันเป็นเท็จ หลอกลวง ทำให้ผู้อื่นได้รับความเสียหาย มีโทษจำคุกไม่เกินห้าปี หรือปรับไม่เกินหนึ่งแสนบาท (มีอายุความ 10 ปี)"
+            android:textSize="24sp" />
+    </RelativeLayout>
+    </ScrollView>

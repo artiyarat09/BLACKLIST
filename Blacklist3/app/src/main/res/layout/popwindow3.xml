@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/y4">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/line"
+        tools:srcCompat="@drawable/line"
+        />
+
+    <TextView
+        android:id="@+id/popwindow3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:text="โทร.1213 สายด่วนศูนย์คุ้มครองผู้ใช้บริการทางการเงิน เวลาทำการวันจันทร์-วันศุกร์(8.30-16.30น.)นอกเวลาทำการบริการตอบรับอัตโนมัติ 24ชั่วโมง หรือFacebook Fanpage 'ศคง. 1213' "
+        android:textSize="23sp" />
+</RelativeLayout>
+    </ScrollView>

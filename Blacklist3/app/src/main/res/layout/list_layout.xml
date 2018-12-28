@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="188dp"
+        android:layout_height="161dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        app:srcCompat="@drawable/ic_account_circle_black_24dp" />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="297dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="195dp"
+        android:text="iyarat yingsombat"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bank_text"
+        android:layout_width="296dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/name_text"
+        android:layout_marginBottom="183dp"
+        android:text="กสิกรไทย"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/data_text"
+        android:layout_width="353dp"
+        android:layout_height="91dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/name_text"
+        android:layout_marginBottom="38dp"
+        android:text="สั่งซื้อของใน Lazada แต่ไม่ได้รับของ"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/baked_text"
+        android:layout_width="307dp"
+        android:layout_height="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/name_text"
+        android:layout_marginBottom="141dp"
+        android:text="6332543179"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/id_text"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/name_text"
+        android:layout_marginBottom="227dp"
+        android:text="1101500825879"
+        android:textSize="20sp" />
+</RelativeLayout>

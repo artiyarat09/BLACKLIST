@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Blacklist</string>
+    <string name="password">Password</string>
+    <string name="Login">ลงชื่อเข้าใช้</string>
+    <string name="usrername">Usrername</string>
+    <string name="regis">ลงทะเบียน</string>
+    <color name="back">#FFFC70</color>
+
+    <string-array name="data">
+        <item>อัยยรัช ยิ่งสมบัติ</item>
+        <item>ธนดล ฟักสวัสดื์</item>
+        <item>ปิยะวัฒน์ คล้ายจำแลง</item>
+        <item>ธนกฤต แซต่ั้ง</item>
+        <item>a1</item>
+        <item>a2</item>
+        <item>a3</item>
+        <item>a4</item>
+        <item>a5</item>
+        <item>a6</item>
+    </string-array>
+    <string name="title_activity_page3">page3</string>
+    <string name="section_format" />
+    <string name="title_activity_regis1">regis1</string>
+    <string name="title_activity_menu1">Menu1</string>
+
+</resources>

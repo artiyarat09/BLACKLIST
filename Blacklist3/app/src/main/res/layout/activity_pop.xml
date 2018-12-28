@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp">
+
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:background="@color/y2"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="เมื่อถูกโกงควรทำอย่างไร"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_1"
+            android:background="@color/y3"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="รายชื่อคนโกงที่ปรากฏเชื่อถือได้ไหม"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button2"
+            android:background="@color/y4"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="ช่องทางการติดต่อ-ขอคำปรึกษา"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button3"
+            android:background="@color/y5"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="กฏหมายเกี่ยวกับการฉ้อโกงทางออนไลน์"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button4"
+            android:background="@color/y6"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="ลักษณะบุคคลที่ควรเผ้าระวัง"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button5"
+            android:background="@color/y1"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="ผู้จัดทำแอพพลิเคชั่น"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>
